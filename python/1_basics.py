@@ -53,10 +53,30 @@
 # print(a is b )
 # print(a is c)
 
-a = [1, 2]
-b = a
+# a = [1, 2]
+# b = a
 
-b.append(3)
+# b.append(3)
 
-print(a)
-print(b)
+# print(a)
+# print(b)
+
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
+
+# x = 5
+# y = "Jon"
+# print(x, y)
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+  x = "damn "
+myfunc()
+
+print("Python is " + x)
